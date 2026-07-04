@@ -1,0 +1,1460 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Wahyu — IT Support, Web Developer, UI/UX Designer & QA Engineer. Portofolio profesional yang menampilkan proyek, keahlian, dan pengalaman." />
+  <meta name="keywords" content="Wahyu, IT Support, Web Developer, UI/UX, QA Engineer, Portofolio" />
+  <meta name="author" content="Wahyu" />
+  <meta property="og:title" content="Wahyu — Portfolio" />
+  <meta property="og:description" content="IT Support | Web Developer | UI/UX | QA Engineer" />
+  <meta property="og:type" content="website" />
+  <title>Wahyu — Portfolio</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <!-- Icons: Remix Icons CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+</head>
+
+<body>
+
+  <!-- ══════════════ CURSOR GLOW ══════════════ -->
+  <div class="cursor-glow"></div>
+
+  <!-- ══════════════ PRELOADER ══════════════ -->
+  <div id="preloader">
+    <div class="preloader-logo">W.</div>
+    <div class="preloader-bar">
+      <div class="preloader-bar-fill"></div>
+    </div>
+  </div>
+
+  <!-- ══════════════ NAVBAR ══════════════ -->
+  <header>
+    <nav id="navbar">
+      <div class="container">
+        <div class="nav-wrapper">
+          <a href="#hero" class="nav-logo">W<span>.</span></a>
+
+          <ul class="nav-links">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#certificates">Certificates</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+
+          <a href="#contact" class="nav-cta">Hire Me</a>
+
+          <button class="nav-hamburger" id="nav-hamburger" aria-label="Toggle menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Mobile Menu -->
+      <div class="nav-mobile" id="nav-mobile">
+        <a href="#hero">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#certificates">Certificates</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <!-- ══════════════ HERO SECTION ══════════════ -->
+  <section id="hero">
+    <div class="hero-bg">
+      <canvas id="particles-canvas"></canvas>
+    </div>
+
+    <div class="container">
+      <div class="hero-content">
+
+        <!-- Left: Text -->
+        <div class="hero-text fade-up">
+          <div class="hero-badge">
+            <span class="dot"></span>
+            Available for Work
+          </div>
+
+          <h1 class="hero-name">
+            Hello, I'm<br>
+            <span class="highlight">Wahyu Nugroho</span>
+          </h1>
+
+          <div class="hero-typing-wrap">
+            Saya seorang &nbsp;<span class="hero-typing"></span>
+          </div>
+
+          <p class="hero-desc">
+            Profesional di bidang IT dengan keahlian di IT Support,
+            Web Development, UI/UX Design, dan Quality Assurance.
+            Berdedikasi untuk menghadirkan solusi teknologi yang inovatif dan andal.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">
+              <i class="ri-folder-open-line"></i> Lihat Proyek
+            </a>
+            <a href="#contact" class="btn btn-outline">
+              <i class="ri-send-plane-line"></i> Hubungi Saya
+            </a>
+          </div>
+
+          <div class="hero-stats">
+            <div class="hero-stat">
+              <span class="hero-stat-num" data-target="3" data-suffix="+">0+</span>
+              <span class="hero-stat-label">Years Experience</span>
+            </div>
+            <div class="hero-stat">
+              <span class="hero-stat-num" data-target="20" data-suffix="+">0+</span>
+              <span class="hero-stat-label">Projects Done</span>
+            </div>
+            <div class="hero-stat">
+              <span class="hero-stat-num" data-target="15" data-suffix="+">0+</span>
+              <span class="hero-stat-label">Happy Clients</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: Visual -->
+        <div class="hero-visual fade-right delay-2">
+          <div class="hero-img-wrap">
+            <div class="hero-img-ring-2"></div>
+            <div class="hero-img-ring"></div>
+            <div class="hero-img-inner">
+              <img src="assets/wahyu_photo.jpg" alt="Wahyu — Portfolio Photo" />
+            </div>
+
+            <!-- Floating badges -->
+            <div class="hero-badge-float">
+              <span class="badge-icon">🖥️</span>
+              <div class="badge-text">
+                IT Support
+                <span>Expert</span>
+              </div>
+            </div>
+            <div class="hero-badge-float">
+              <span class="badge-icon">⚡</span>
+              <div class="badge-text">
+                Projects
+                <span>20+</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Scroll indicator -->
+    <div class="scroll-indicator">
+      <div class="scroll-mouse"></div>
+      <span>Scroll</span>
+    </div>
+  </section>
+
+  <!-- ══════════════ ABOUT SECTION ══════════════ -->
+  <section id="about">
+    <div class="container">
+      <div class="section-header fade-up">
+        <div class="section-tag">Tentang Saya</div>
+        <h2 class="section-title">Kenali Lebih <span>Dekat</span></h2>
+        <div class="section-divider"></div>
+      </div>
+
+      <div class="about-grid">
+        <!-- Image -->
+        <div class="fade-left">
+          <div class="about-img-wrap">
+            <div class="about-img-frame">
+              <img src="assets/wahyu_about.jpg" alt="Wahyu — About Photo" />
+            </div>
+            <div class="about-img-decor"></div>
+            <div class="about-exp-badge">
+              <span class="exp-num">3+</span>
+              <span class="exp-text">Tahun<br>Pengalaman</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Content -->
+        <div class="about-content fade-right delay-2">
+          <p class="about-intro">
+            Saya adalah lulusan S1 Teknologi Informasi Universitas Amikom Purwokerto dengan konsentrasi di bidang Cyber
+            Security.
+            Dengan latar belakang yang kuat di bidang teknologi informasi, saya selalu
+            bersemangat mempelajari hal baru dan menghadirkan solusi kreatif untuk setiap
+            tantangan yang ada.
+          </p>
+
+          <div class="about-highlights">
+            <div class="about-highlight-item">
+              <span class="check"><i class="ri-check-line"></i></span>
+              IT Support & Troubleshooting
+            </div>
+            <div class="about-highlight-item">
+              <span class="check"><i class="ri-check-line"></i></span>
+              Web Development (Frontend & Backend)
+            </div>
+            <div class="about-highlight-item">
+              <span class="check"><i class="ri-check-line"></i></span>
+              UI/UX Design & Prototyping
+            </div>
+            <div class="about-highlight-item">
+              <span class="check"><i class="ri-check-line"></i></span>
+              Quality Assurance & Testing
+            </div>
+            <div class="about-highlight-item">
+              <span class="check"><i class="ri-check-line"></i></span>
+              Network & System Administration
+            </div>
+            <div class="about-highlight-item">
+              <span class="check"><i class="ri-check-line"></i></span>
+              Agile & Scrum Methodology
+            </div>
+          </div>
+
+          <div class="about-info-grid">
+            <div class="about-info-item">
+              <span class="label">Nama</span>
+              <span class="value">Wahyu Nugroho</span>
+            </div>
+            <div class="about-info-item">
+              <span class="label">Status</span>
+              <span class="value" style="color: #4caf50;">✦ Available</span>
+            </div>
+            <div class="about-info-item">
+              <span class="label">Lokasi</span>
+              <span class="value">Indonesia</span>
+            </div>
+            <div class="about-info-item">
+              <span class="label">Bahasa</span>
+              <span class="value">Indonesia, English</span>
+            </div>
+          </div>
+
+          <div style="display:flex; gap:14px; flex-wrap:wrap;">
+            <a href="#contact" class="btn btn-primary">
+              <i class="ri-mail-send-line"></i> Hubungi Saya
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════ SKILLS SECTION ══════════════ -->
+  <section id="skills">
+    <div class="container">
+      <div class="section-header fade-up">
+        <div class="section-tag">Keahlian</div>
+        <h2 class="section-title">Tech <span>Stack & Skills</span></h2>
+        <div class="section-divider"></div>
+        <p class="section-desc">Berbagai teknologi dan tools yang saya kuasai untuk menghadirkan solusi terbaik.</p>
+      </div>
+
+      <div class="skills-grid">
+
+        <!-- IT Support -->
+        <div class="skill-category fade-up delay-1">
+          <div class="skill-cat-header">
+            <div class="skill-cat-icon">🖥️</div>
+            <span class="skill-cat-title">IT Support</span>
+          </div>
+          <div class="skill-items">
+            <div class="skill-item">
+              <div class="skill-label-wrap">
+                <span class="skill-name">Hardware Troubleshooting</span>
+                <span class="skill-pct">90%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-fill" data-width="90%"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-label-wrap">
+                <span class="skill-name">Networking & LAN</span>
+                <span class="skill-pct">82%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-fill" data-width="82%"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-label-wrap">
+                <span class="skill-name">Windows / Linux Admin</span>
+                <span class="skill-pct">85%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-fill" data-width="85%"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-label-wrap">
+                <span class="skill-name">Help Desk & ITSM</span>
+                <span class="skill-pct">88%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-fill" data-width="88%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Web Development -->
+        <div class="skill-category fade-up delay-2">
+          <div class="skill-cat-header">
+            <div class="skill-cat-icon">💻</div>
+            <span class="skill-cat-title">Web Development</span>
+          </div>
+          <div class="skill-items">
+            <div class="skill-item">
+              <div class="skill-label-wrap">
+                <span class="skill-name">HTML / CSS / JavaScript</span>
+                <span class="skill-pct">88%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-fill" data-width="88%"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-label-wrap">
+                <span class="skill-name">PHP / Laravel</span>
+                <span class="skill-pct">75%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-fill" data-width="75%"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-label-wrap">
+                <span class="skill-name">React.js</span>
+                <span class="skill-pct">70%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-fill" data-width="70%"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-label-wrap">
+                <span class="skill-name">MySQL / Database</span>
+                <span class="skill-pct">80%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-fill" data-width="80%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- UI/UX Design -->
+        <div class="skill-category fade-up delay-3">
+          <div class="skill-cat-header">
+            <div class="skill-cat-icon">🎨</div>
+            <span class="skill-cat-title">UI/UX Design</span>
+          </div>
+          <div class="skill-items">
+            <div class="skill-item">
+              <div class="skill-label-wrap">
+                <span class="skill-name">Figma</span>
+                <span class="skill-pct">85%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-fill" data-width="85%"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-label-wrap">
+                <span class="skill-name">Prototyping & Wireframing</span>
+                <span class="skill-pct">82%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-fill" data-width="82%"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-label-wrap">
+                <span class="skill-name">User Research</span>
+                <span class="skill-pct">75%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-fill" data-width="75%"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-label-wrap">
+                <span class="skill-name">Framer / Photoshop</span>
+                <span class="skill-pct">72%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-fill" data-width="72%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- QA -->
+        <div class="skill-category fade-up delay-4">
+          <div class="skill-cat-header">
+            <div class="skill-cat-icon">🔍</div>
+            <span class="skill-cat-title">Quality Assurance</span>
+          </div>
+          <div class="skill-items">
+            <div class="skill-item">
+              <div class="skill-label-wrap">
+                <span class="skill-name">Manual Testing</span>
+                <span class="skill-pct">87%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-fill" data-width="87%"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-label-wrap">
+                <span class="skill-name">Test Case Writing</span>
+                <span class="skill-pct">85%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-fill" data-width="85%"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-label-wrap">
+                <span class="skill-name">Bug Tracking (Jira)</span>
+                <span class="skill-pct">80%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-fill" data-width="80%"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-label-wrap">
+                <span class="skill-name">Postman / API Testing</span>
+                <span class="skill-pct">75%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-fill" data-width="75%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Tech badges row -->
+      <div style="margin-top: 50px;" class="fade-up delay-3">
+        <div class="tech-badges" style="justify-content:center;">
+          <span class="tech-badge">HTML5</span>
+          <span class="tech-badge">CSS3</span>
+          <span class="tech-badge">JavaScript</span>
+          <span class="tech-badge">PHP</span>
+          <span class="tech-badge">Laravel</span>
+          <span class="tech-badge">React.js</span>
+          <span class="tech-badge">MySQL</span>
+          <span class="tech-badge">Figma</span>
+          <span class="tech-badge">Git</span>
+          <span class="tech-badge">Linux</span>
+          <span class="tech-badge">Jira</span>
+          <span class="tech-badge">Postman</span>
+          <span class="tech-badge">Adobe XD</span>
+          <span class="tech-badge">Windows Server</span>
+          <span class="tech-badge">VS Code</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ══════════════ PROJECTS SECTION ══════════════ -->
+  <section id="projects">
+    <div class="container">
+      <div class="section-header fade-up">
+        <div class="section-tag">Proyek</div>
+        <h2 class="section-title">Portofolio <span>Terbaru</span></h2>
+        <div class="section-divider"></div>
+        <p class="section-desc">Beberapa proyek pilihan yang telah saya kerjakan.</p>
+      </div>
+
+      <!-- Filter -->
+      <div class="projects-filter fade-up delay-1">
+        <button class="filter-btn active" data-filter="all">Semua</button>
+        <button class="filter-btn" data-filter="web">Web Dev</button>
+        <button class="filter-btn" data-filter="uiux">UI/UX</button>
+        <button class="filter-btn" data-filter="qa">QA</button>
+        <button class="filter-btn" data-filter="video">Video</button>
+        <button class="filter-btn" data-filter="graphics">Graphic Design</button>
+        <button class="filter-btn" data-filter="it">IT Support</button>
+      </div>
+
+      <!-- Grid -->
+      <div class="projects-grid">
+
+        <!-- Project 1 (Graphic Design) -->
+        <div class="project-card fade-up delay-1" data-category="graphics">
+          <div class="project-img-wrap">
+            <img src="assets/tampah_kkn.jpg" alt="Spesial Tampah KKN Promo" class="project-img" />
+            <div class="project-overlay">
+              <a href="assets/tampah_kkn.jpg" class="project-overlay-btn" title="View Design" target="_blank">
+                <i class="ri-eye-line"></i>
+              </a>
+            </div>
+          </div>
+          <div class="project-body">
+            <div class="project-tags">
+              <span class="project-tag">Graphic Design</span>
+              <span class="project-tag">Promo Banner</span>
+              <span class="project-tag">Figma</span>
+            </div>
+            <h3 class="project-title">Spesial Tampah KKN</h3>
+            <p class="project-desc">
+              Desain promosi kreatif produk Tampah KKN dengan perpaduan elemen daun bambu alami dan visual produk yang
+              menonjol untuk menarik minat pembeli.
+            </p>
+            <div class="project-footer">
+              <div class="project-links">
+                <a href="assets/tampah_kkn.jpg" class="project-link" target="_blank">
+                  <i class="ri-eye-line"></i> View
+                </a>
+              </div>
+              <span style="font-size:0.75rem; color: var(--text-dim);">2025</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2 (Graphic Design) -->
+        <div class="project-card fade-up delay-2" data-category="graphics">
+          <div class="project-img-wrap">
+            <img src="assets/mie_abang.jpg" alt="Mie Ayam Abang Banner" class="project-img" />
+            <div class="project-overlay">
+              <a href="assets/mie_abang.jpg" class="project-overlay-btn" title="View Design" target="_blank">
+                <i class="ri-eye-line"></i>
+              </a>
+            </div>
+          </div>
+          <div class="project-body">
+            <div class="project-tags">
+              <span class="project-tag">Graphic Design</span>
+              <span class="project-tag">Food Branding</span>
+              <span class="project-tag">Figma</span>
+            </div>
+            <h3 class="project-title">Mie Ayam Abang Banner</h3>
+            <p class="project-desc">
+              Desain poster makanan promosi Mie Ayam Abang Umami dengan visualisasi produk yang menggugah selera dan
+              layout modern bergaya pop-up.
+            </p>
+            <div class="project-footer">
+              <div class="project-links">
+                <a href="assets/mie_abang.jpg" class="project-link" target="_blank">
+                  <i class="ri-eye-line"></i> View
+                </a>
+              </div>
+              <span style="font-size:0.75rem; color: var(--text-dim);">2025</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3 (Graphic Design) -->
+        <div class="project-card fade-up delay-3" data-category="graphics">
+          <div class="project-img-wrap">
+            <img src="assets/bandeng_presto.jpg" alt="Pratama Bandeng Presto Design" class="project-img" />
+            <div class="project-overlay">
+              <a href="assets/bandeng_presto.jpg" class="project-overlay-btn" title="View Design" target="_blank">
+                <i class="ri-eye-line"></i>
+              </a>
+            </div>
+          </div>
+          <div class="project-body">
+            <div class="project-tags">
+              <span class="project-tag">Graphic Design</span>
+              <span class="project-tag">Food Banner</span>
+              <span class="project-tag">Branding</span>
+            </div>
+            <h3 class="project-title">Pratama Bandeng Presto</h3>
+            <p class="project-desc">
+              Desain brosur promosi digital untuk produk Bandeng Presto Pratama dengan ilustrasi pohon kelapa pantai
+              yang menyegarkan.
+            </p>
+            <div class="project-footer">
+              <div class="project-links">
+                <a href="assets/bandeng_presto.jpg" class="project-link" target="_blank">
+                  <i class="ri-eye-line"></i> View
+                </a>
+              </div>
+              <span style="font-size:0.75rem; color: var(--text-dim);">2025</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 4 (Graphic Design) -->
+        <div class="project-card fade-up delay-1" data-category="graphics">
+          <div class="project-img-wrap">
+            <img src="assets/match_day.jpg" alt="Match Day Sports Banner" class="project-img" />
+            <div class="project-overlay">
+              <a href="assets/match_day.jpg" class="project-overlay-btn" title="View Design" target="_blank">
+                <i class="ri-eye-line"></i>
+              </a>
+            </div>
+          </div>
+          <div class="project-body">
+            <div class="project-tags">
+              <span class="project-tag">Graphic Design</span>
+              <span class="project-tag">Sports Poster</span>
+              <span class="project-tag">Social Media</span>
+            </div>
+            <h3 class="project-title">Match Day Sports Banner</h3>
+            <p class="project-desc">
+              Desain poster Match Day sepakbola untuk pertandingan Manchester United vs Liverpool, menampilkan pemain
+              bintang dengan efek tekstur koran retro.
+            </p>
+            <div class="project-footer">
+              <div class="project-links">
+                <a href="assets/match_day.jpg" class="project-link" target="_blank">
+                  <i class="ri-eye-line"></i> View
+                </a>
+              </div>
+              <span style="font-size:0.75rem; color: var(--text-dim);">2025</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 5 -->
+        <div class="project-card fade-up delay-1" data-category="uiux">
+          <div class="project-img-wrap">
+            <img src="assets/its.png" alt="IT Support Web UI" class="project-img" />
+            <div class="project-overlay">
+              <a href="https://www.figma.com/proto/da0wWgyHHui9Hepeb9LJHW/ITS?node-id=14-455&viewport=204%2C76%2C0.02&t=PvHVJ9gtgue0XVUD-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=14%3A455&show-proto-sidebar=1&page-id=0%3A1"
+                class="project-overlay-btn" title="Live Preview" target="_blank">
+                <i class="ri-external-link-line"></i>
+              </a>
+              <a href="https://www.figma.com/design/da0wWgyHHui9Hepeb9LJHW/ITS?node-id=14-455&t=8ugCg35MOD5pXGYJ-1"
+                class="project-overlay-btn" title="Figma File" target="_blank">
+                <i class="ri-pencil-ruler-2-line"></i>
+              </a>
+            </div>
+          </div>
+          <div class="project-body">
+            <div class="project-tags">
+              <span class="project-tag">Figma</span>
+              <span class="project-tag">UI/UX</span>
+              <span class="project-tag">Web UI</span>
+            </div>
+            <h3 class="project-title">IT Support</h3>
+            <p class="project-desc">
+              Web UI untuk ticketing permintaan terhadap divisi IT — tampilan yang simpel dari website, dan CTA yang
+              mudah dipahami oleh user.
+            </p>
+            <div class="project-footer">
+              <div class="project-links">
+                <a href="https://www.figma.com/proto/da0wWgyHHui9Hepeb9LJHW/ITS?node-id=14-455&viewport=204%2C76%2C0.02&t=PvHVJ9gtgue0XVUD-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=14%3A455&show-proto-sidebar=1&page-id=0%3A1"
+                  class="project-link" target="_blank">
+                  <i class="ri-external-link-line"></i> Preview
+                </a>
+                <a href="https://www.figma.com/design/da0wWgyHHui9Hepeb9LJHW/ITS?node-id=14-455&t=8ugCg35MOD5pXGYJ-1"
+                  class="project-link" target="_blank">
+                  <i class="ri-pencil-ruler-2-line"></i> Figma
+                </a>
+              </div>
+              <span style="font-size:0.75rem; color: var(--text-dim);">2025</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card fade-up delay-2" data-category="uiux">
+          <div class="project-img-wrap">
+            <img src="assets/rds.png" alt="Research Development System" class="project-img" />
+            <div class="project-overlay">
+              <a href="https://www.figma.com/proto/Ti2F20NK5nRimw56AhNklu/RDS-Mandiri?node-id=1-636&viewport=-685%2C-122%2C0.05&t=oajUeTTbXEoSngFZ-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=1%3A636&show-proto-sidebar=1&page-id=0%3A1"
+                class="project-overlay-btn" title="Live Preview" target="_blank">
+                <i class="ri-external-link-line"></i>
+              </a>
+              <a href="https://www.figma.com/design/Ti2F20NK5nRimw56AhNklu/RDS-Mandiri?node-id=1-636&t=t80A1elWll85grBp-1"
+                class="project-overlay-btn" title="Figma File" target="_blank">
+                <i class="ri-pencil-ruler-2-line"></i>
+              </a>
+            </div>
+          </div>
+          <div class="project-body">
+            <div class="project-tags">
+              <span class="project-tag">Figma</span>
+              <span class="project-tag">UI/UX</span>
+              <span class="project-tag">Web UI</span>
+            </div>
+            <h3 class="project-title">Research Development System</h3>
+            <p class="project-desc">
+              Web UI untuk melakukan pengujian atau penelitian produk — tampilan yang simpel dari website, dan CTA yang
+              mudah dipahami oleh user.
+            </p>
+            <div class="project-footer">
+              <div class="project-links">
+                <a href="https://www.figma.com/proto/Ti2F20NK5nRimw56AhNklu/RDS-Mandiri?node-id=1-636&viewport=-685%2C-122%2C0.05&t=oajUeTTbXEoSngFZ-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=1%3A636&show-proto-sidebar=1&page-id=0%3A1"
+                  class="project-link" target="_blank">
+                  <i class="ri-external-link-line"></i> Preview
+                </a>
+                <a href="https://www.figma.com/design/Ti2F20NK5nRimw56AhNklu/RDS-Mandiri?node-id=1-636&t=t80A1elWll85grBp-1"
+                  class="project-link" target="_blank">
+                  <i class="ri-pencil-ruler-2-line"></i> Figma
+                </a>
+              </div>
+              <span style="font-size:0.75rem; color: var(--text-dim);">2025</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project-card fade-up delay-3" data-category="video">
+          <div class="project-img-wrap">
+            <img src="assets/kjt.png" alt="Kunjungan Tamu Video" class="project-img" />
+            <div class="project-overlay">
+              <a href="assets/kjt.png" class="project-overlay-btn" title="View Preview" target="_blank">
+                <i class="ri-eye-line"></i>
+              </a>
+            </div>
+          </div>
+          <div class="project-body">
+            <div class="project-tags">
+              <span class="project-tag">Video</span>
+              <span class="project-tag">PT. Simex</span>
+              <span class="project-tag">Prosedur</span>
+            </div>
+            <h3 class="project-title">Kunjungan Tamu</h3>
+            <p class="project-desc">
+              Video yang menampilkan prosedur penerimaan tamu di PT. Simex Pharmaceutical Indonesia — mulai dari
+              kedatangan dan registrasi hingga mengikuti protokol perusahaan selama kunjungan.
+            </p>
+            <div class="project-footer">
+              <div class="project-links">
+                <a href="assets/kjt.png" class="project-link" target="_blank">
+                  <i class="ri-eye-line"></i> View
+                </a>
+              </div>
+              <span style="font-size:0.75rem; color: var(--text-dim);">2025</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 4 -->
+        <div class="project-card fade-up delay-1" data-category="video">
+          <div class="project-img-wrap">
+            <img src="assets/protap.png" alt="PROTAP HR Video" class="project-img" />
+            <div class="project-overlay">
+              <a href="assets/protap.png" class="project-overlay-btn" title="View Preview" target="_blank">
+                <i class="ri-eye-line"></i>
+              </a>
+            </div>
+          </div>
+          <div class="project-body">
+            <div class="project-tags">
+              <span class="project-tag">Video</span>
+              <span class="project-tag">PT. Simex</span>
+              <span class="project-tag">HR Protap</span>
+            </div>
+            <h3 class="project-title">PROTAP HR</h3>
+            <p class="project-desc">
+              Video yang memaparkan Prosedur Tetap HR di PT. Simex Pharmaceutical Indonesia — mencakup alur
+              administrasi, kebijakan karyawan, dan standar operasional.
+            </p>
+            <div class="project-footer">
+              <div class="project-links">
+                <a href="assets/protap.png" class="project-link" target="_blank">
+                  <i class="ri-eye-line"></i> View
+                </a>
+              </div>
+              <span style="font-size:0.75rem; color: var(--text-dim);">2025</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 5 (IT Support) -->
+        <div class="project-card fade-up delay-2" data-category="it">
+          <div class="project-img-wrap">
+            <img src="assets/it_support.jpg" alt="IT Support & Infrastructure" class="project-img" />
+            <div class="project-overlay">
+              <a href="assets/it_support.jpg" class="project-overlay-btn" title="View Detail" target="_blank">
+                <i class="ri-eye-line"></i>
+              </a>
+            </div>
+          </div>
+          <div class="project-body">
+            <div class="project-tags">
+              <span class="project-tag">Troubleshooting</span>
+              <span class="project-tag">Networking</span>
+              <span class="project-tag">Hardware</span>
+              <span class="project-tag">Software</span>
+            </div>
+            <h3 class="project-title">IT Support &amp; Infrastructure Maintenance</h3>
+            <p class="project-desc">
+              Instalasi PC, sistem operasi Windows, driver pendukung, dan instalasi aplikasi. Pembuatan dan pengujian
+              kabel LAN RJ45, serta troubleshooting hardware &amp; software harian.
+            </p>
+            <div class="project-footer">
+              <div class="project-links">
+                <a href="assets/it_support.jpg" class="project-link" target="_blank">
+                  <i class="ri-eye-line"></i> View
+                </a>
+              </div>
+              <span style="font-size:0.75rem; color: var(--text-dim);">2026</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project Web Dev: Asset Management -->
+        <div class="project-card fade-up delay-3" data-category="web">
+          <div class="project-img-wrap">
+            <img src="assets/asset_management.png" alt="Asset Management System" class="project-img" />
+            <div class="project-overlay">
+              <a href="https://canva.link/bemcnjxtnyrrj24" class="project-overlay-btn" title="Live Preview"
+                target="_blank">
+                <i class="ri-external-link-line"></i>
+              </a>
+              <a href="https://canva.link/bemcnjxtnyrrj24" class="project-overlay-btn" title="Lihat di Canva"
+                target="_blank">
+                <i class="ri-artboard-line"></i>
+              </a>
+            </div>
+          </div>
+          <div class="project-body">
+            <div class="project-tags">
+              <span class="project-tag">Laravel</span>
+              <span class="project-tag">PHP</span>
+              <span class="project-tag">MySQL</span>
+              <span class="project-tag">Web App</span>
+            </div>
+            <h3 class="project-title">Asset Management System</h3>
+            <p class="project-desc">
+              Sistem web internal untuk permintaan dan pencatatan aset perusahaan di PT. Simex Pharmaceutical Indonesia
+              — mencakup manajemen kategori CAPEX, modul EAM, dan kualifikasi perangkat IT.
+            </p>
+            <div class="project-footer">
+              <div class="project-links">
+                <a href="https://canva.link/bemcnjxtnyrrj24" class="project-link" target="_blank">
+                  <i class="ri-external-link-line"></i> Preview
+                </a>
+                <a href="https://canva.link/bemcnjxtnyrrj24" class="project-link" target="_blank">
+                  <i class="ri-canva-line" style="font-family: inherit;"></i> Project
+                </a>
+              </div>
+              <span style="font-size:0.75rem; color: var(--text-dim);">2026</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 6 (Amikom Creative Hub) -->
+        <div class="project-card fade-up delay-3" data-category="uiux">
+          <div class="project-img-wrap">
+            <img src="assets/ach.png" alt="Amikom Creative Hub" class="project-img" />
+            <div class="project-overlay">
+              <a href="https://www.figma.com/proto/Vcb6BcQwyoBVFIlwBCnlnh/Design-UI-Website-Amikom-Creative-Hub?page-id=0%3A1&node-id=162-983&p=f&viewport=-75%2C63%2C0.02&t=TmpxozpFyotjCnI0-1&scaling=contain&content-scaling=responsive"
+                class="project-overlay-btn" title="Live Preview" target="_blank"><i
+                  class="ri-external-link-line"></i></a>
+              <a href="https://www.figma.com/design/Vcb6BcQwyoBVFIlwBCnlnh/Design-UI-Website-Amikom-Creative-Hub?node-id=162-983&t=gCoNkvIYQM5P5l7E-1"
+                class="project-overlay-btn" title="Figma File" target="_blank"><i
+                  class="ri-pencil-ruler-2-line"></i></a>
+            </div>
+          </div>
+          <div class="project-body">
+            <div class="project-tags">
+              <span class="project-tag">Figma</span>
+              <span class="project-tag">UI/UX</span>
+              <span class="project-tag">Web Design</span>
+            </div>
+            <h3 class="project-title">Amikom Creative Hub</h3>
+            <p class="project-desc">
+              Portal berita kampus Universitas Amikom Purwokerto — meliput acara, prestasi, dan konten kreatif untuk
+              menjembatani dunia akademik dan industri.
+            </p>
+            <div class="project-footer">
+              <div class="project-links">
+                <a href="https://www.figma.com/proto/Vcb6BcQwyoBVFIlwBCnlnh/Design-UI-Website-Amikom-Creative-Hub?page-id=0%3A1&node-id=162-983&p=f&viewport=-75%2C63%2C0.02&t=TmpxozpFyotjCnI0-1&scaling=contain&content-scaling=responsive"
+                  class="project-link" target="_blank"><i class="ri-external-link-line"></i> Preview</a>
+                <a href="https://www.figma.com/design/Vcb6BcQwyoBVFIlwBCnlnh/Design-UI-Website-Amikom-Creative-Hub?node-id=162-983&t=gCoNkvIYQM5P5l7E-1"
+                  class="project-link" target="_blank"><i class="ri-pencil-ruler-2-line"></i> Figma</a>
+              </div>
+              <span style="font-size:0.75rem; color: var(--text-dim);">2024</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 7 (QA) -->
+        <div class="project-card fade-up delay-1" data-category="qa">
+          <div class="project-img-wrap">
+            <img src="assets/project3.png" alt="QA & IT Compliance" class="project-img" />
+            <div class="project-overlay">
+              <a href="#" class="project-overlay-btn" title="QA Details">
+                <i class="ri-file-text-line"></i>
+              </a>
+            </div>
+          </div>
+          <div class="project-body">
+            <div class="project-tags">
+              <span class="project-tag">Compliance</span>
+              <span class="project-tag">URS &amp; IK</span>
+              <span class="project-tag">Validation</span>
+              <span class="project-tag">Manual Testing</span>
+            </div>
+            <h3 class="project-title">Quality Assurance &amp; IT Compliance</h3>
+            <p class="project-desc">
+              Pembuatan dokumen teknis URS &amp; IK (Instruksi Kerja), Validasi aplikasi internal, Kalibrasi alat,
+              Kualifikasi instalasi perangkat IT (PC, monitor, printer), serta pengujian bug program secara manual.
+            </p>
+            <div class="project-footer">
+              <div class="project-links">
+                <a href="#" class="project-link">
+                  <i class="ri-file-text-line"></i> Docs
+                </a>
+              </div>
+              <span style="font-size:0.75rem; color: var(--text-dim);">2026</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 8 -->
+        <div class="project-card fade-up delay-2" data-category="uiux">
+          <div class="project-img-wrap">
+            <img src="assets/wuzz.png" alt="Wuzzz Mobile Apps" class="project-img" />
+            <div class="project-overlay">
+              <a href="https://www.figma.com/proto/BpBefNSypfJjjB0SlI0gop/UI-UX-Design---Wuzzz-Mobile-App---Indoneris-IT-Competition-2023?page-id=86%3A378&node-id=334-50243&p=f&m=draw&scaling=scale-down&content-scaling=fixed&starting-point-node-id=284%3A39535&t=PH1E1cYEXVkxYjib-1"
+                class="project-overlay-btn" title="Live Preview" target="_blank">
+                <i class="ri-external-link-line"></i>
+              </a>
+              <a href="https://www.figma.com/design/BpBefNSypfJjjB0SlI0gop/UI-UX-Design---Wuzzz-Mobile-App---Indoneris-IT-Competition-2023?node-id=334-50243&t=MSy0L5Ud55HyQN3T-1"
+                class="project-overlay-btn" title="Figma File" target="_blank">
+                <i class="ri-pencil-ruler-2-line"></i>
+              </a>
+            </div>
+          </div>
+          <div class="project-body">
+            <div class="project-tags">
+              <span class="project-tag">Figma</span>
+              <span class="project-tag">UI/UX</span>
+              <span class="project-tag">Mobile App</span>
+            </div>
+            <h3 class="project-title">Wuzzz Mobile Apps — 🏆 Juara 3 Nasional</h3>
+            <p class="project-desc">
+              Aplikasi pemesanan tiket kereta cepat yang dirancang bersama 2 anggota tim. Mencakup riset UX dan UI
+              mobile yang intuitif untuk membantu pengguna memesan tiket dengan fleksibel dan efisien.
+            </p>
+            <div class="project-footer">
+              <div class="project-links">
+                <a href="https://www.figma.com/proto/BpBefNSypfJjjB0SlI0gop/UI-UX-Design---Wuzzz-Mobile-App---Indoneris-IT-Competition-2023?page-id=86%3A378&node-id=334-50243&p=f&m=draw&scaling=scale-down&content-scaling=fixed&starting-point-node-id=284%3A39535&t=PH1E1cYEXVkxYjib-1"
+                  class="project-link" target="_blank">
+                  <i class="ri-external-link-line"></i> Preview
+                </a>
+                <a href="https://www.figma.com/design/BpBefNSypfJjjB0SlI0gop/UI-UX-Design---Wuzzz-Mobile-App---Indoneris-IT-Competition-2023?node-id=334-50243&t=MSy0L5Ud55HyQN3T-1"
+                  class="project-link" target="_blank">
+                  <i class="ri-pencil-ruler-2-line"></i> Figma
+                </a>
+              </div>
+              <span style="font-size:0.75rem; color: var(--text-dim);">2023</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 9 -->
+        <div class="project-card fade-up delay-3" data-category="uiux">
+          <div class="project-img-wrap">
+            <img src="assets/insomnia.png" alt="Insomnia Kitchen" class="project-img" />
+            <div class="project-overlay">
+              <a href="https://www.figma.com/proto/lgKQqQGGRMhLcXfETOzkCt/Kelompok-4?page-id=0%3A1&node-id=52-8&starting-point-node-id=52%3A8&t=oa7LKWjSGMLDfW0x-1"
+                class="project-overlay-btn" title="Live Preview" target="_blank"><i
+                  class="ri-external-link-line"></i></a>
+              <a href="https://www.figma.com/design/lgKQqQGGRMhLcXfETOzkCt/Kelompok-4?node-id=52-8&t=DajHEAfLRavULJWr-0"
+                class="project-overlay-btn" title="Figma File" target="_blank"><i
+                  class="ri-pencil-ruler-2-line"></i></a>
+            </div>
+          </div>
+          <div class="project-body">
+            <div class="project-tags">
+              <span class="project-tag">Figma</span>
+              <span class="project-tag">UI/UX</span>
+              <span class="project-tag">Landing Page</span>
+            </div>
+            <h3 class="project-title">Insomnia Kitchen</h3>
+            <p class="project-desc">
+              Desain landing page untuk brand fast food — menampilkan visual yang kuat, informasi produk yang jelas, dan
+              CTA yang menarik untuk mendorong penjualan online.
+            </p>
+            <div class="project-footer">
+              <div class="project-links">
+                <a href="https://www.figma.com/proto/lgKQqQGGRMhLcXfETOzkCt/Kelompok-4?page-id=0%3A1&node-id=52-8&starting-point-node-id=52%3A8&t=oa7LKWjSGMLDfW0x-1"
+                  class="project-link" target="_blank"><i class="ri-external-link-line"></i> Preview</a>
+                <a href="https://www.figma.com/design/lgKQqQGGRMhLcXfETOzkCt/Kelompok-4?node-id=52-8&t=DajHEAfLRavULJWr-0"
+                  class="project-link" target="_blank"><i class="ri-pencil-ruler-2-line"></i> Figma</a>
+              </div>
+              <span style="font-size:0.75rem; color: var(--text-dim);">2023</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 10 -->
+        <div class="project-card fade-up delay-1" data-category="uiux">
+          <div class="project-img-wrap">
+            <img src="assets/harsa.png" alt="Harsa LMS" class="project-img" />
+            <div class="project-overlay">
+              <a href="https://www.figma.com/design/3wxfNdYTIIHW8gzCGD3t0y/harsa-prototype?node-id=0-1&p=f&t=t47vTaeqPzpPTGjr-0"
+                class="project-overlay-btn" title="Live Preview" target="_blank"><i
+                  class="ri-external-link-line"></i></a>
+              <a href="https://www.figma.com/design/BDunZQ5yks3A6VT9R4RaGn/HARSA?node-id=293-3&t=bmuINtUtpWTLK842-1"
+                class="project-overlay-btn" title="Figma File" target="_blank"><i
+                  class="ri-pencil-ruler-2-line"></i></a>
+            </div>
+          </div>
+          <div class="project-body">
+            <div class="project-tags">
+              <span class="project-tag">Figma</span>
+              <span class="project-tag">UI/UX</span>
+              <span class="project-tag">MSIB</span>
+            </div>
+            <h3 class="project-title">Harsa LMS — MSIB Alterra Academy</h3>
+            <p class="project-desc">
+              Sistem manajemen pembelajaran dengan panel Admin, Instruktur, dan Aplikasi Mobile. Dibangun secara
+              kolaboratif bersama divisi BE, QA, React, dan Flutter.
+            </p>
+            <div class="project-footer">
+              <div class="project-links">
+                <a href="https://www.figma.com/design/3wxfNdYTIIHW8gzCGD3t0y/harsa-prototype?node-id=0-1&p=f&t=t47vTaeqPzpPTGjr-0"
+                  class="project-link" target="_blank"><i class="ri-external-link-line"></i> Preview</a>
+                <a href="https://www.figma.com/design/BDunZQ5yks3A6VT9R4RaGn/HARSA?node-id=293-3&t=bmuINtUtpWTLK842-1"
+                  class="project-link" target="_blank"><i class="ri-pencil-ruler-2-line"></i> Figma</a>
+              </div>
+              <span style="font-size:0.75rem; color: var(--text-dim);">2023</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════ EXPERIENCE SECTION ══════════════ -->
+  <section id="experience">
+    <div class="container">
+      <div class="section-header fade-up">
+        <div class="section-tag">Pengalaman</div>
+        <h2 class="section-title">Perjalanan <span>Karir</span></h2>
+        <div class="section-divider"></div>
+      </div>
+
+      <div class="timeline">
+
+        <!-- Item 1 -->
+        <div class="timeline-item">
+          <div class="timeline-content fade-left">
+            <div class="timeline-date"><i class="ri-calendar-line"></i> &nbsp;Des 2025 — Jun 2026</div>
+            <div class="timeline-role">Magang Staf IT</div>
+            <div class="timeline-company"><i class="ri-building-2-line"></i> &nbsp;PT. Simex Pharmaceutical Indonesia
+            </div>
+            <p class="timeline-desc">
+              Memberikan IT Support harian mencakup troubleshooting hardware, software, dan jaringan. Memantau
+              infrastruktur IT dan memelihara server room. Mengembangkan sistem web internal menggunakan Laravel dan
+              merancang UI di Figma. Menyiapkan dokumen teknis seperti URS dan Instruksi Kerja sesuai standar CPOB.
+            </p>
+          </div>
+          <div class="timeline-center">
+            <div class="timeline-dot"></div>
+          </div>
+          <div class="timeline-empty"></div>
+        </div>
+
+        <!-- Item 2 -->
+        <div class="timeline-item">
+          <div class="timeline-empty"></div>
+          <div class="timeline-center">
+            <div class="timeline-dot"></div>
+          </div>
+          <div class="timeline-content fade-right delay-1">
+            <div class="timeline-date"><i class="ri-calendar-line"></i> &nbsp;Jan 2024</div>
+            <div class="timeline-role">Magang UI/UX Designer</div>
+            <div class="timeline-company"><i class="ri-building-2-line"></i> &nbsp;Amikom Creative Hub (ACH)</div>
+            <p class="timeline-desc">
+              Merancang UI portal berita ACH bersama tim 2 orang di Figma — mulai dari memahami kebutuhan project
+              manager hingga menghasilkan prototipe interaktif yang siap dipresentasikan.
+            </p>
+          </div>
+        </div>
+
+        <!-- Item 3 -->
+        <div class="timeline-item">
+          <div class="timeline-content fade-left delay-2">
+            <div class="timeline-date"><i class="ri-calendar-line"></i> &nbsp;Agu — Des 2023</div>
+            <div class="timeline-role">MSIB Batch 5 — Studi Independen</div>
+            <div class="timeline-company"><i class="ri-building-2-line"></i> &nbsp;Alterra Academy</div>
+            <p class="timeline-desc">
+              Menyelesaikan pelatihan intensif dasar-dasar UI/UX. Menyelesaikan proyek individu bertema kesehatan (Farma
+              Gym) dan proyek capstone lintas divisi (Harsa LMS). Meraih nilai individu 88/100.
+            </p>
+          </div>
+          <div class="timeline-center">
+            <div class="timeline-dot"></div>
+          </div>
+          <div class="timeline-empty"></div>
+        </div>
+
+      </div>
+
+      <!-- Education -->
+      <div class="section-header fade-up" style="margin-top: 80px;">
+        <div class="section-tag">Pendidikan</div>
+        <h2 class="section-title">Riwayat <span>Pendidikan</span></h2>
+        <div class="section-divider"></div>
+      </div>
+
+      <div class="timeline">
+
+        <!-- Edu 1 -->
+        <div class="timeline-item">
+          <div class="timeline-empty"></div>
+          <div class="timeline-center">
+            <div class="timeline-dot"></div>
+          </div>
+          <div class="timeline-content fade-right delay-1">
+            <div class="timeline-date"><i class="ri-graduation-cap-line"></i> &nbsp;2021 — 2025</div>
+            <div class="timeline-role">S1 Teknologi Informasi</div>
+            <div class="timeline-company"><i class="ri-bank-line"></i> &nbsp;Universitas Amikom Purwokerto</div>
+            <p class="timeline-desc">
+              Menempuh pendidikan sarjana di bidang Teknologi Informasi dengan fokus pengembangan perangkat lunak,
+              desain
+              sistem, dan teknologi informasi modern.
+            </p>
+          </div>
+        </div>
+
+        <!-- Edu 2 -->
+        <div class="timeline-item">
+          <div class="timeline-content fade-left delay-2">
+            <div class="timeline-date"><i class="ri-graduation-cap-line"></i> &nbsp;2018 — 2021</div>
+            <div class="timeline-role">SMK — Teknik Komputer &amp; Jaringan</div>
+            <div class="timeline-company"><i class="ri-bank-line"></i> &nbsp;SMK Wiworotomo Purwokerto</div>
+            <p class="timeline-desc">
+              Lulus dengan kompetensi Teknik Komputer dan Jaringan. Dinyatakan lulus Uji Kompetensi Keahlian (UKK) yang
+              diakreditasi oleh Biznet Branch Purwokerto.
+            </p>
+          </div>
+          <div class="timeline-center">
+            <div class="timeline-dot"></div>
+          </div>
+          <div class="timeline-empty"></div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════ CERTIFICATES SECTION ══════════════ -->
+  <section id="certificates">
+    <div class="container">
+      <div class="section-header fade-up">
+        <div class="section-tag">Sertifikasi</div>
+        <h2 class="section-title">Sertifikat <span>Saya</span></h2>
+        <div class="section-divider"></div>
+        <p class="section-desc">Sertifikasi dan pencapaian profesional yang telah saya raih.</p>
+      </div>
+
+      <div class="certs-grid">
+
+        <div class="cert-card fade-up delay-1">
+          <div class="cert-img-wrap">
+            <img src="assets/cert_mtcna.png" alt="MikroTik MTCNA Certificate" class="cert-img" />
+            <div class="cert-overlay">
+              <a href="assets/cert_mtcna.png" class="cert-overlay-btn" target="_blank" title="View Certificate">
+                <i class="ri-eye-line"></i>
+              </a>
+            </div>
+          </div>
+          <div class="cert-body">
+            <div class="cert-issuer"><i class="ri-award-line"></i> MikroTik</div>
+            <h3 class="cert-title">MikroTik Certified Network Associate (MTCNA)</h3>
+            <div class="cert-meta">
+              <span class="cert-date"><i class="ri-calendar-line"></i> Maret 2021</span>
+              <span class="cert-badge cert-badge--tech">Networking</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="cert-card fade-up delay-2">
+          <div class="cert-img-wrap">
+            <img src="assets/cert_ms_office.png" alt="Applied Microsoft Office Certificate" class="cert-img" />
+            <div class="cert-overlay">
+              <a href="assets/cert_ms_office.png" class="cert-overlay-btn" target="_blank" title="View Certificate">
+                <i class="ri-eye-line"></i>
+              </a>
+            </div>
+          </div>
+          <div class="cert-body">
+            <div class="cert-issuer"><i class="ri-award-line"></i> Trust Training Partners × Microsoft</div>
+            <h3 class="cert-title">Applied Microsoft Office</h3>
+            <div class="cert-meta">
+              <span class="cert-date"><i class="ri-calendar-line"></i> Februari 2024</span>
+              <span class="cert-badge cert-badge--ms">Microsoft</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="cert-card fade-up delay-3">
+          <div class="cert-img-wrap">
+            <img src="assets/cert_redhat.png" alt="Red Hat Linux Certificate" class="cert-img" />
+            <div class="cert-overlay">
+              <a href="assets/cert_redhat.png" class="cert-overlay-btn" target="_blank" title="View Certificate">
+                <i class="ri-eye-line"></i>
+              </a>
+            </div>
+          </div>
+          <div class="cert-body">
+            <div class="cert-issuer"><i class="ri-award-line"></i> Red Hat Academy</div>
+            <h3 class="cert-title">RH124: Red Hat Enterprise Linux System Administration I</h3>
+            <div class="cert-meta">
+              <span class="cert-date"><i class="ri-calendar-line"></i> Maret 2024</span>
+              <span class="cert-badge cert-badge--tech">Linux</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="cert-card fade-up delay-1">
+          <div class="cert-img-wrap">
+            <img src="assets/cert_biznet.png" alt="Biznet UKK Certificate" class="cert-img" />
+            <div class="cert-overlay">
+              <a href="assets/cert_biznet.png" class="cert-overlay-btn" target="_blank" title="View Certificate">
+                <i class="ri-eye-line"></i>
+              </a>
+            </div>
+          </div>
+          <div class="cert-body">
+            <div class="cert-issuer"><i class="ri-award-line"></i> Biznet Branch Purwokerto</div>
+            <h3 class="cert-title">Sertifikat Kompetensi — UKK Teknik Komputer &amp; Jaringan</h3>
+            <div class="cert-meta">
+              <span class="cert-date"><i class="ri-calendar-line"></i> Maret 2021</span>
+              <span class="cert-badge cert-badge--tech">TKJ</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="cert-card fade-up delay-2">
+          <div class="cert-img-wrap">
+            <img src="assets/cert_english.jpg" alt="English Certification" class="cert-img" />
+            <div class="cert-overlay">
+              <a href="assets/cert_english.jpg" class="cert-overlay-btn" target="_blank" title="View Certificate">
+                <i class="ri-eye-line"></i>
+              </a>
+            </div>
+          </div>
+          <div class="cert-body">
+            <div class="cert-issuer"><i class="ri-award-line"></i> Universitas Amikom Purwokerto</div>
+            <h3 class="cert-title">English Certification Program — Good</h3>
+            <div class="cert-meta">
+              <span class="cert-date"><i class="ri-calendar-line"></i> Februari 2024</span>
+              <span class="cert-badge cert-badge--lang">English</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="cert-card fade-up delay-3">
+          <div class="cert-img-wrap">
+            <img src="assets/cert_simex.png" alt="Sertifikat Magang PT. Simex" class="cert-img" />
+            <div class="cert-overlay">
+              <a href="assets/cert_simex.png" class="cert-overlay-btn" target="_blank" title="View Certificate">
+                <i class="ri-eye-line"></i>
+              </a>
+            </div>
+          </div>
+          <div class="cert-body">
+            <div class="cert-issuer"><i class="ri-award-line"></i> PT. Simex Pharmaceutical Indonesia</div>
+            <h3 class="cert-title">Sertifikat Magang — Internship MaganHub Program Kemnaker</h3>
+            <div class="cert-meta">
+              <span class="cert-date"><i class="ri-calendar-line"></i> Des 2025 — Jun 2026</span>
+              <span class="cert-badge cert-badge--green">IT Intern</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="cert-card fade-up delay-1">
+          <div class="cert-img-wrap">
+            <img src="assets/cert_kemnaker.png" alt="Sertifikat Kemnaker MaganHub" class="cert-img" />
+            <div class="cert-overlay">
+              <a href="assets/cert_kemnaker.png" class="cert-overlay-btn" target="_blank" title="View Certificate">
+                <i class="ri-eye-line"></i>
+              </a>
+            </div>
+          </div>
+          <div class="cert-body">
+            <div class="cert-issuer"><i class="ri-award-line"></i> Kemnaker × PT. Simex Pharmaceutical Indonesia</div>
+            <h3 class="cert-title">Program Pemagangan Lulusan PT — Predikat Sangat Baik</h3>
+            <div class="cert-meta">
+              <span class="cert-date"><i class="ri-calendar-line"></i> Juni 2026</span>
+              <span class="cert-badge cert-badge--green">Sangat Baik</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="cert-card fade-up delay-2">
+          <div class="cert-img-wrap">
+            <img src="assets/cert_indoneris.png" alt="Sertifikat Juara 3 Indoneris" class="cert-img" />
+            <div class="cert-overlay">
+              <a href="assets/cert_indoneris.png" class="cert-overlay-btn" target="_blank" title="View Certificate">
+                <i class="ri-eye-line"></i>
+              </a>
+            </div>
+          </div>
+          <div class="cert-body">
+            <div class="cert-issuer"><i class="ri-award-line"></i> Universitas Amikom Purwokerto</div>
+            <h3 class="cert-title">🏆 Juara 3 UI/UX Public Service — Indoneris National IT Competition 2023</h3>
+            <div class="cert-meta">
+              <span class="cert-date"><i class="ri-calendar-line"></i> 2023</span>
+              <span class="cert-badge cert-badge--gold">Juara 3</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="cert-card fade-up delay-3">
+          <div class="cert-img-wrap">
+            <img src="assets/cert_msib.png" alt="Sertifikat MSIB Batch 5 Alterra Academy" class="cert-img" />
+            <div class="cert-overlay">
+              <a href="assets/cert_msib.png" class="cert-overlay-btn" target="_blank" title="View Certificate">
+                <i class="ri-eye-line"></i>
+              </a>
+            </div>
+          </div>
+          <div class="cert-body">
+            <div class="cert-issuer"><i class="ri-award-line"></i> Alterra Academy × MSIB Kemendikbud</div>
+            <h3 class="cert-title">Certificate MSIB of Graduation — Batch 5 (Becoming Professional UI/UX Designer)</h3>
+            <div class="cert-meta">
+              <span class="cert-date"><i class="ri-calendar-line"></i> Januari 2024</span>
+              <span class="cert-badge cert-badge--orange">MSIB</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════ CONTACT SECTION ══════════════ -->
+  <section id="contact">
+    <div class="container">
+      <div class="section-header fade-up">
+        <div class="section-tag">Kontak</div>
+        <h2 class="section-title">Mari <span>Berkolaborasi</span></h2>
+        <div class="section-divider"></div>
+        <p class="section-desc">Tertarik bekerja sama? Kirimkan pesan dan saya akan segera merespons.</p>
+      </div>
+
+      <div class="contact-grid">
+
+        <!-- Info -->
+        <div class="contact-info fade-left">
+          <h3 class="contact-info-title">Hubungi<br><span>Saya</span></h3>
+          <p class="contact-info-desc">
+            Saya terbuka untuk berbagai peluang kerja sama, proyek freelance,
+            atau sekadar berbagi ide dan diskusi seputar teknologi.
+          </p>
+
+          <div class="contact-details">
+            <div class="contact-detail-item">
+              <div class="contact-detail-icon">
+                <i class="ri-mail-line"></i>
+              </div>
+              <div class="contact-detail-text">
+                <div class="contact-detail-label">Email</div>
+                <div class="contact-detail-value"><a href="mailto:wahyun3232@gmail.com">wahyun3232@gmail.com</a></div>
+              </div>
+            </div>
+            <div class="contact-detail-item">
+              <div class="contact-detail-icon">
+                <i class="ri-phone-line"></i>
+              </div>
+              <div class="contact-detail-text">
+                <div class="contact-detail-label">WhatsApp</div>
+                <div class="contact-detail-value">+62 897-059-8020</div>
+              </div>
+            </div>
+            <div class="contact-detail-item">
+              <div class="contact-detail-icon">
+                <i class="ri-map-pin-line"></i>
+              </div>
+              <div class="contact-detail-text">
+                <div class="contact-detail-label">Lokasi</div>
+                <div class="contact-detail-value">Indonesia</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-socials">
+            <a href="https://www.linkedin.com/in/wahyuunugroho/" class="social-btn" title="LinkedIn"
+              id="social-linkedin" target="_blank">
+              <i class="ri-linkedin-box-fill"></i>
+            </a>
+            <a href="https://github.com/WahyuNugrohoo" class="social-btn" title="GitHub" id="social-github">
+              <i class="ri-github-fill"></i>
+            </a>
+            <a href="https://www.instagram.com/wahyu_nvam/" class="social-btn" title="Instagram" id="social-instagram">
+              <i class="ri-instagram-line"></i>
+            </a>
+            <a href="https://wa.me/628970598020" class="social-btn" title="WhatsApp" id="social-whatsapp"
+              target="_blank">
+              <i class="ri-whatsapp-line"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Form -->
+        <div class="contact-form-wrap fade-right delay-2">
+          <form id="contact-form" novalidate>
+            <div class="form-row">
+              <div class="form-group">
+                <label class="form-label" for="contact-name">Nama</label>
+                <input type="text" id="contact-name" class="form-input" placeholder="Nama Anda" required />
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="contact-email">Email</label>
+                <input type="email" id="contact-email" class="form-input" placeholder="email@anda.com" required />
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="contact-subject">Subjek</label>
+              <input type="text" id="contact-subject" class="form-input" placeholder="Subjek pesan" />
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="contact-message">Pesan</label>
+              <textarea id="contact-message" class="form-textarea"
+                placeholder="Ceritakan tentang proyek atau kebutuhan Anda..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary form-submit">
+              <i class="ri-send-plane-fill"></i> Kirim Pesan
+            </button>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════ FOOTER ══════════════ -->
+  <footer id="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-logo">W<span>.</span></div>
+        <p class="footer-copy">
+          &copy; 2026 <span>Wahyu</span>. All Rights Reserved.
+        </p>
+        <button class="footer-back-top" id="back-top" title="Kembali ke atas">
+          <i class="ri-arrow-up-line"></i>
+        </button>
+      </div>
+    </div>
+  </footer>
+
+  <!-- EmailJS SDK -->
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
