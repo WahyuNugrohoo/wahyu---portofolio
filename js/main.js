@@ -70,7 +70,9 @@ mobileMenu?.querySelectorAll('a').forEach(link => {
 const typingEl = document.querySelector('.hero-typing');
 const roles = [
   'IT Support Specialist',
+  'CapCut Creator',
   'Web Developer',
+  'Video Editor & Videographer',
   'UI/UX Designer',
   'QA Engineer',
 ];
@@ -312,3 +314,24 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 document.getElementById('back-top')?.addEventListener('click', () => {
   window.scrollTo({ top: 0, behavior: 'smooth' });
 });
+
+/* ─── COPY TIKTOK LINK ─── */
+const copyTikTokBtn = document.getElementById('btn-copy-tiktok');
+copyTikTokBtn?.addEventListener('click', () => {
+  const tiktokUrl = 'https://www.tiktok.com/@jason.template0';
+  const copyText = document.getElementById('copy-tiktok-text');
+  navigator.clipboard.writeText(tiktokUrl).then(() => {
+    if (copyText) {
+      const orig = copyText.textContent;
+      copyText.textContent = 'Tersalin! ✓';
+      copyTikTokBtn.classList.add('copied');
+      setTimeout(() => {
+        copyText.textContent = orig;
+        copyTikTokBtn.classList.remove('copied');
+      }, 2500);
+    }
+  }).catch(() => {
+    prompt('Salin tautan TikTok berikut:', tiktokUrl);
+  });
+});
+
