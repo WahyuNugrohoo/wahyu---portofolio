@@ -70,11 +70,10 @@ mobileMenu?.querySelectorAll('a').forEach(link => {
 const typingEl = document.querySelector('.hero-typing');
 const roles = [
   'IT Support Specialist',
-  'CapCut Creator',
-  'Web Developer',
+  'Hardware & Network Support',
+  'CapCut Creator (Side Focus)',
+  'Help Desk & Troubleshooting',
   'Video Editor & Videographer',
-  'UI/UX Designer',
-  'QA Engineer',
 ];
 let roleIdx  = 0;
 let charIdx  = 0;
